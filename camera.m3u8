@@ -1,83 +1,37 @@
-#EXTM3U
-#EXTINF:-1,CA Saint John NB Trinity Royal Heritage Conservation Area
-https://s87.ipcamlive.com/streams/5785jdqbft2xkbd3l/stream.m3u8
-#EXTINF:-1,CA Saint John NB Kings Square
-https://s87.ipcamlive.com/streams/57ozapyv1bfntlnpl/stream.m3u8
-#EXTINF:-1,CA Saint John NB Water St
-https://s87.ipcamlive.com/streams/57ej1hh6qa2bmov7i/stream.m3u8
-#EXTINF:-1,CA Saint John NB Partridge island lighthouse
-https://s87.ipcamlive.com/streams/57dtafzx48qr2kwgv/stream.m3u8
-#EXTINF:-1,Stream 1
 https://s71.ipcamlive.com/streams/47ia7uaciyq4bmu9s/stream.m3u8
-#EXTINF:-1,Stream 2
 https://s81.ipcamlive.com/streams/51j4pm6z1nk3qdcpi/stream.m3u8
-#EXTINF:-1,Stream 3
 https://stream-us1-foxtrot.dropcam.com/nexus_aac/faadc30e385c4259a27236eee4afdb3b/chunklist_w1935811918.m3u8?public=R18GtMD2kw
-#EXTINF:-1,Stream 4
 https://media.gpei.ca/islandcam/guild.stream/playlist.m3u8
-#EXTINF:-1,Stream 5
 https://stream-us1-charlie.dropcam.com/nexus_aac/80f9c9d3c8e5455a939a2817044bf0b3/chunklist_w971888306.m3u8?public=ZQk9CR7pTg
-#EXTINF:-1,Stream 6
 https://stream-us1-alfa.dropcam.com/nexus_aac/c95c270846a6425ca3a2ce27d7b787f3/chunklist_w186411131.m3u8?public=1Zo8nFf70Z
-#EXTINF:-1,Stream 7
 https://e1-na7.angelcam.com/cameras/98458/streams/hls/playlist.m3u8?token=eyJjYW1lcmFfaWQiOiI5ODQ1OCIsImRldmljZV9pZCI6Ijk4NDU4IiwidGltZSI6MTY4NzUyNTg1NjM0MzE2OCwidGltZW91dCI6MzYwMH0%3D%2Ec7f9d783832cff0713ca38f268db15a3962d68239509088e08c131e45989e0cd
-#EXTINF:-1,Stream 8
 https://s57.ipcamlive.com/streams/39q4cz9l2mk3ymhnl/stream.m3u8
-#EXTINF:-1,Stream 9
 https://s57.ipcamlive.com/streams/39fzvniazt3mf5rho/stream.m3u8
-#EXTINF:-1,Stream 10
 https://stream-ue1-bravo.dropcam.com/nexus_aac/f0edaa1ba5af4f0db5ae2b1ee5076c8e/playlist.m3u8?public=srFJAgxtlk
-#EXTINF:-1,Stream 11
 https://s52.ipcamlive.com/streams/341suock4bo9x2zjg/stream.m3u8
-#EXTINF:-1,Stream 12
 https://s41.ipcamlive.com/streams/29pgyq7xow0ffmalc/stream.m3u8
-#EXTINF:-1,Stream 13
 https://s50.ipcamlive.com/streams/32vsec6cjxoyedily/stream.m3u8
-#EXTINF:-1,Stream 14
 https://s89.ipcamlive.com/streams/59jcgtnxt0oarbfqp/stream.m3u8
-#EXTINF:-1,Stream 15
 https://e1-na3.angelcam.com/cameras/106214/streams/hls/playlist.m3u8?token=eyJjYW1lcmFfaWQiOiIxMDYyMTQiLCJkZXZpY2VfaWQiOiIxMDYyMTQiLCJ0aW1lIjoxNjg3NTI1NDY5MDMyMDI5LCJ0aW1lb3V0IjozNjAwfQ%3D%3D%2Ecabbd74c2f635156b102dbb9018733a470ad531093c2d21551005712fcf122fe
-#EXTINF:-1,Stream 16
 https://s47.ipcamlive.com/streams/2fmc7aijqrxv6hw2z/stream.m3u8
-#EXTINF:-1,Stream 17
 https://s71.ipcamlive.com/streams/471oibazmpknqmee0/stream.m3u8
-#EXTINF:-1,Stream 18
 https://s66.ipcamlive.com/streams/42do5ak8r9uxjebtr/stream.m3u8
-#EXTINF:-1,Stream 19
 https://s66.ipcamlive.com/streams/42f9zirbtsk27ugxg/stream.m3u8
-#EXTINF:-1,Stream 20
 https://s78.ipcamlive.com/streams/4eg5xmduypuojkrif/stream.m3u8
-#EXTINF:-1,Stream 21
 https://s88.ipcamlive.com/streams/589yraim0nn3bcave/stream.m3u8
-#EXTINF:-1,Stream 22
 https://webvideo.mississauga.ca/StageWebcam/LiveStageWebcam.stream/playlist.m3u8
-#EXTINF:-1,Stream 23
 https://webvideo.mississauga.ca/BalconyWebcam/LiveWebcam.stream/playlist.m3u8
-#EXTINF:-1,Stream 24
 https://56cf3370d8dd3.streamlock.net:1935/live/stpete.stream/playlist.m3u8
-#EXTINF:-1,Stream 25
 https://stream-ue1-delta.dropcam.com/nexus_aac/350fd329608e4575b0909b311e570e83/playlist.m3u8?public=lOtAy0crYP
-#EXTINF:-1,Stream 26
 https://s97.ipcamlive.com/streams/61q3inbo076kcptlf/stream.m3u8
-#EXTINF:-1,Stream 27
 https://stream-uc2-charlie.dropcam.com/nexus_aac/13d3e27adea842278fc699b8cf9e045b/playlist.m3u8?public=FnFJZHkT4H
-#EXTINF:-1,Stream 28
 https://e1-na7.angelcam.com/cameras/35153/streams/hls/playlist.m3u8?token=eyJjYW1lcmFfaWQiOiIzNTE1MyIsImRldmljZV9pZCI6IjM1MTUzIiwidGltZSI6MTY4NzUyNjIxMjc4MjgyNSwidGltZW91dCI6MzYwMH0%3D%2Eb6a5a457827adbbc15f0e849239489be272c4e463163110e02371efbc6ad7932
-#EXTINF:-1,Stream 29
 https://56cf3370d8dd3.streamlock.net:1935/live/knotts1.stream/playlist.m3u8
-#EXTINF:-1,Stream 30
 https://56cf3370d8dd3.streamlock.net:1935/live/knotts2.stream/playlist.m3u8
-#EXTINF:-1,Stream 31
 https://e1-na3.angelcam.com/cameras/11233/streams/hls/playlist.m3u8?token=eyJjYW1lcmFfaWQiOiIxMTIzMyIsImRldmljZV9pZCI6IjExMjMzIiwidGltZSI6MTY4NzUyNjE5NzU5NDczMSwidGltZW91dCI6MzYwMH0%3D%2E52c6f09ddb6c5a1f2bbe20478694225c198c41c71ff9c0146f60a50961d335e5
-#EXTINF:-1,Stream 32
 https://livestream.fullcityservers.com/fagers.live/sunset.stream/playlist.m3u8
-#EXTINF:-1,Stream 33
 https://b10.hdrelay.com/camera/b4646389-51e1-41ae-a2ae-b33ebefab0b8/relay/chunklist_w1619457013.m3u8
-#EXTINF:-1,Stream 34
 https://5ddd47d64e730.streamlock.net:444/communityinklaketahoehwy50/communityinklaketahoehwy50.stream/playlist.m3u8
-#EXTINF:-1,Stream 35
 https://streaming.hunterfiber.com//streams//mtashland//comer//index.m3u8
-#EXTINF:-1,Stream 36
 https://streaming.hunterfiber.com//streams//mtashland//lodge//index.m3u8
-#EXTINF:-1,Stream 37
 https://streaming.hunterfiber.com//streams//mtashland//liftshop//index.m3u8
