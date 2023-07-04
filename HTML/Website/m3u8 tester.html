@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>M3U8 Link Tester</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    function testM3U8Links() {
+      var playlist = document.getElementById("playlist").value;
+      var lines = playlist.split("\n");
+      var workingLinks = [];
+      var deadLinks = [];
+
+      lines.forEach(function(line) {
+        if (line.startsWith("http")) {
+          $.ajax({
+            url: line,
+            type: 'GET',
+            success: function() {
+              workingLinks.push(line);
+            },
+            error: function() {
+              deadLinks.push(line);
+            },
+            complete: function() {
+              updateResultBoxes(workingLinks, deadLinks);
+            }
+          });
+        }
+      });
+    }
+
+    function updateResultBoxes(workingLinks, deadLinks) {
+      $("#working-links").val(workingLinks.join("\n"));
+      $("#dead-links").val(deadLinks.join("\n"));
+    }
+  </script>
+</head>
+<body>
+  <h1>M3U8 Link Tester</h1>
+  <textarea id="playlist" rows="10" cols="50" placeholder="Paste your M3U8 playlist here"></textarea>
+  <br>
+  <button onclick="testM3U8Links()">Test Links</button>
+  <br>
+  <h2>Working Links</h2>
+  <textarea id="working-links" rows="10" cols="50" readonly></textarea>
+  <h2>Dead Links</h2>
+  <textarea id="dead-links" rows="10" cols="50" readonly></textarea>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>M3U8 Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            color: #333;
+        }
+
+        .dark-mode {
+            background-color: #333;
+            color: #f1f1f1;
+        }
+    </style>
+    <script>
+        function generateM3U8() {
+            var linksInput = document.getElementById("linksInput");
+            var m3u8Output = document.getElementById("m3u8Output");
+
+            var links = linksInput.value.trim().split("\n");
+            var uniqueLinks = [...new Set(links)];
+
+            var output = "#EXTM3U\n";
+            var nameCounter = 1;
+            for (var i = 0; i < uniqueLinks.length; i++) {
+                var link = uniqueLinks[i].trim();
+                if (link !== "" && !link.startsWith("#")) {
+                    output += "#EXTINF:-1," + nameCounter + "\n";
+                    output += link + "\n";
+                    nameCounter++;
+                }
+            }
+
+            m3u8Output.value = output;
+        }
+
+        function generateRandomM3U8() {
+            var linksInput = document.getElementById("linksInput");
+            var m3u8Output = document.getElementById("m3u8Output");
+
+            var links = linksInput.value.trim().split("\n");
+            var uniqueLinks = [...new Set(links)];
+
+            shuffleArray(uniqueLinks);
+
+            var output = "#EXTM3U\n";
+            var nameCounter = 1;
+            for (var i = 0; i < uniqueLinks.length; i++) {
+                var link = uniqueLinks[i].trim();
+                if (link !== "" && !link.startsWith("#")) {
+                    output += "#EXTINF:-1," + nameCounter + "\n";
+                    output += link + "\n";
+                    nameCounter++;
+                }
+            }
+
+            m3u8Output.value = output;
+        }
+
+        function copyToClipboard() {
+            var m3u8Output = document.getElementById("m3u8Output");
+            m3u8Output.select();
+            document.execCommand("copy");
+            alert("Copied to clipboard!");
+        }
+
+        function extractLinks() {
+            var m3u8Input = document.getElementById("m3u8Input");
+            var linksOutput = document.getElementById("linksOutput");
+
+            var m3u8Content = m3u8Input.value.trim();
+            var lines = m3u8Content.split("\n");
+            var links = [];
+
+            for (var i = 0; i < lines.length; i++) {
+                var line = lines[i].trim();
+                if (line !== "" && !line.startsWith("#")) {
+                    links.push(line);
+                }
+            }
+
+            linksOutput.value = links.join("\n");
+        }
+
+        function copyLinksToClipboard() {
+            var linksOutput = document.getElementById("linksOutput");
+            linksOutput.select();
+            document.execCommand("copy");
+            alert("Copied to clipboard!");
+        }
+
+        function shuffleArray(array) {
+            for (var i = array.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                var temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        }
+
+        function toggleDarkMode() {
+            var body = document.querySelector("body");
+            body.classList.toggle("dark-mode");
+        }
+    </script>
+</head>
+<body>
+    <h1>M3U8 Generator</h1>
+    <h2>Generate M3U8</h2>
+    <textarea id="linksInput" rows="10" cols="50" placeholder="Paste links here"></textarea>
+    <br>
+    <button onclick="generateM3U8()">Generate M3U8</button>
+    <button onclick="generateRandomM3U8()">Generate Random M3U8</button>
+    <br>
+    <br>
+    <textarea id="m3u8Output" rows="10" cols="50" readonly></textarea>
+    <br>
+    <button onclick="copyToClipboard()">Copy All</button>
+
+    <h2>Extract Links</h2>
+    <textarea id="m3u8Input" rows="10" cols="50" placeholder="Paste M3U8 content here"></textarea>
+    <br>
+    <button onclick="extractLinks()">Extract Links</button>
+    <br>
+    <br>
+    <textarea id="linksOutput" rows="10" cols="50" readonly></textarea>
+    <br>
+    <button onclick="copyLinksToClipboard()">Copy All</button>
+
+    <br>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+</body>
+</html>
