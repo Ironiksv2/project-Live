@@ -415,3 +415,11 @@ https://stream-uc2-charlie.dropcam.com/nexus_aac/876d724c0ace471aa762157152ce51b
 https://stream-ue1-delta.dropcam.com/nexus_aac/6e8376fe51414f989e91e5cac012d61d/playlist.m3u8?public=iqHEM76maN
 #EXTINF:-1,208
 https://stream-ue1-bravo.dropcam.com/nexus_aac/fd521eaa37f44e22a085a0753b05f42a/playlist.m3u8?public=1uV6Lr6XaC
+#EXTINF:-King Street Web Cam
+https://s87.ipcamlive.com/streams/57jhh5jufds3linpd/stream.m3u8
+#EXTINF:-King's Square Web Cam
+https://s87.ipcamlive.com/streams/57a0gknlecjwqutgk/stream.m3u8
+#EXTINF:-Fundy Quay Web Cam
+https://s87.ipcamlive.com/streams/57oonkgdqfxnrhjzq/stream.m3u8
+#EXTINF:-Partridge Island Web Cam
+https://s87.ipcamlive.com/streams/57gwixcwaskz1uamf/stream.m3u8
